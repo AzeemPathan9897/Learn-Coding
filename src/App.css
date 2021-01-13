@@ -1,0 +1,53 @@
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 60px;
+   color:black;
+   text-shadow:0px 2px 2px ;
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}  
+.belowSbox {
+  position: absolute;
+  top:82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.searchbox {
+  width:700px;
+  height:60px;
+  background: #3e5669;
+}
+.main {
+  position :absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+input{
+  border: 3px solid #32e17c;
+  height: 40px;
+  width : 300px;
+  border-radius: 50px;
+  padding: 0px 10px  ;
+  
+}
+.sFont{
+  position: absolute;
+  font-size: 25px;
+  left:90%;
+  top:20%;
+}
+.hSets{
+ background-color: darkseagreen;
+}
+.clmr{
+  float:right;
+  text-align: center;
+}
